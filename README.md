@@ -7,7 +7,7 @@ Este es el repositorio donde se almacenaran los archivos para las paginas web de
 * 
 * 
 * Cristian Antonio Sanchez Aguilar
-*
-*
+* 
+* 
 
 Vayan agregandose al README los que faltan porfa.
