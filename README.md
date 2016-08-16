@@ -6,7 +6,7 @@ Este es el repositorio donde se almacenaran los archivos para las paginas web de
 
 * 
 * 
-* Cristian Antonio Sanchez Aguilar
+* [Cristian Antonio Sanchez Aguilar](https://github.com/sancas)
 * 
 * 
 
