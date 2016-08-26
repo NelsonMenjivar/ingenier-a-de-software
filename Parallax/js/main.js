@@ -7,6 +7,10 @@ $(document).ready(function(){
 		responsive: true
 	})
 
+	{
+    $("html").niceScroll();
+  	}
+
 	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
 
 		e.preventDefault();

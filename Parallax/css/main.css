@@ -148,7 +148,7 @@ font-size: 60px;
 
 .contenido {
     position: relative;
-    padding: 20vh 10%;
+    padding: 20vh 10% 0 10%;
     min-height: 100vh;
     box-sizing: border-box;
     box-shadow: 0 0px 10px rgba(0, 0, 0, .7);
