@@ -95,21 +95,67 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#content1{
+    background-image:url("../img/war-dark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-variant:small-caps;
+    font-size: 60px;
+}
+#content1 h1{
+    position : fixed;
+    text-align: center;
+    left: 0;right: 0;top: 0;bottom: 0;
+    margin: auto;
+    display: block;
+    height: 30px;
+    color:white;
+    font-variant:small-caps;
+    font-size: 60px;
 
+}
 
+#content3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color:#000000;
+    background-image: url("../img/soldier2.jpg");
+    color: white;
+}
 
+#section2 {
+    background-color:#000000;
+    color: white;
+    background-image: url("../img/war.jpg");
+}
 
+#section3 {
+    background-color: #000000;
+    color: white;
+    background-image:url("../img/soldier.jpg");
+}
 
+#producto {
+    color: white;
+    font-variant:small-caps;
+    font-size: 40px;
+    margin:0 auto;
+}
 
+.icon-main{
+    font-size: 100px;
+}
 
-
-
-
-
-
-
-
-
+.contenido {
+    position: relative;
+    padding: 20vh 10%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, .7);
+    transform-style: inherit;
+}
 
 /* ==========================================================================
    Helper classes
