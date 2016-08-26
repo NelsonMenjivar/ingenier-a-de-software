@@ -13,30 +13,22 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">Estas usando un navegador <strong>obsoleto</strong>. Porfavor <a href="http://browsehappy.com/">actualiza tu navegador</a> para mejor la experiencia.</p>
         <![endif]-->
-
-        <!-- Site content here -->
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Forrest Accesories</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#content1">Inicio</a></li>
-                    <li><a href="#content3">Acerca de</a></li>
-                    <li><a href="#section2">Conocenos</a></li>
-                    <li><a href="#section3">Productos</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><img src="img/logo.jpg" width="80%" </li></a>
-                </ul>
-            </div>
+        <nav id="cssmenu">
+            <ul>
+                <li><a href="#content1"><i class="fa fa-fw fa-home"></i> Inicio</a></li>
+                <li><a href="#content3"><i class="fa fa-fw fa-child"></i> Acerca de</a></li>
+                <li><a href="#section2"><i class="fa fa-fw fa-eye"></i> Conocenos</a></li>
+                <li><a href="#section3"><i class="fa fa-fw fa-cubes"></i> Productos</a></li>
+            </ul>
         </nav>
 
         <div id="wrapper">
@@ -181,14 +173,15 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.stellar.min.js"></script>
         <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/menumaker.min.js"></script>
         <script src="js/main.js"></script>
 
         <style type="text/css">
         .carousel-inner > .item > img,
         .carousel-inner > .item > a > img {
-display: block;
-    margin-left: auto;
-    margin-right: auto
+            display: block;
+            margin-left: auto;
+            margin-right: auto
         }
         </style>
     </body>
