@@ -13,22 +13,35 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">Estas usando un navegador <strong>obsoleto</strong>. Porfavor <a href="http://browsehappy.com/">actualiza tu navegador</a> para mejor la experiencia.</p>
         <![endif]-->
-        <nav id="cssmenu">
-            <ul>
-                <li><a href="#content1"><i class="fa fa-fw fa-home"></i> Inicio</a></li>
-                <li><a href="#content3"><i class="fa fa-fw fa-child"></i> Acerca de</a></li>
-                <li><a href="#section2"><i class="fa fa-fw fa-eye"></i> Conocenos</a></li>
-                <li><a href="#section3"><i class="fa fa-fw fa-cubes"></i> Productos</a></li>
-            </ul>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Forrest Accesories</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#content1"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+                        <li><a href="#content3"><span class="glyphicon glyphicon-user"></span> Acerca de</a></li>
+                        <li><a href="#section2"><span class="glyphicon glyphicon-eye-open"></span> Conocenos</a></li>
+                        <li><a href="#section3"><span class="glyphicon glyphicon-th"></span> Productos</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><img src="img/logo.jpg" width="80%" </li></a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
         <div id="wrapper">
@@ -81,7 +94,6 @@
                             </p>
                     </div>
                     <div class="col-xs-5 col-md-5">
-                        </a>
                     </div>
                     <div class="col-md-1"></div>
                 </div>
@@ -173,7 +185,6 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.stellar.min.js"></script>
         <script src="js/jquery.nicescroll.min.js"></script>
-        <script src="js/menumaker.min.js"></script>
         <script src="js/main.js"></script>
 
         <style type="text/css">
