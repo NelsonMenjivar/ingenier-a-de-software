@@ -7,11 +7,11 @@ $(document).ready(function(){
 		responsive: true
 	})
 
-	{
-    $("html").niceScroll();
-  	}
+    $('html').niceScroll({
+    	cursorwidth: "8px"
+    });
 
-	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+    $('a[href^="#"]').bind('click.smoothscroll',function (e) {
 
 		e.preventDefault();
 
